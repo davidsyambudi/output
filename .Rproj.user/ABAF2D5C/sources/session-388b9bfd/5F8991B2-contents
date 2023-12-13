@@ -1,0 +1,23 @@
+---
+title: "Contoh R Markdown"
+output: html_document
+---
+
+# Ini adalah Dokumen R Markdown
+
+Ini adalah contoh sederhana dokumen R Markdown. Anda dapat menambahkan teks, kode R, dan bahkan plot grafik ke dalamnya.
+
+## Kode R
+
+Berikut adalah contoh kode R di dalam blok kode:
+
+```{r}
+# Buat beberapa data
+set.seed(123)
+data <- data.frame(
+  X = rnorm(100),
+  Y = rnorm(100)
+)
+
+# Tampilkan ringkasan data
+summary(data)
